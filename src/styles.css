@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+h1 {
+  color: #fde1fd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+.main{
+  border-bottom: #333333 1px solid;
+  padding: 30px 0;
+}
+.artist-header{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom:solid 1px #333;
+}
+
+.artist-thumb{
+  width: 80px;
+  height: auto;
+  float: left;
+  margin-right:10px;
+}
+
+.album-thumb{
+  width: 100px;
+  height: auto;
+}
+
+.artist-albums .well{
+  margin-bottom: 20px;
+  overflow:auto;
+  min-height:400px;
+
+}
+
+.album{
+  text-align: center;
+  background: #333;
+  padding: 10px 20px;
+  border: #666 1px solid;
+
+}
+
+.album-thumb{
+  width:100%;
+}
+
+.mainformat{
+  margin-left: 10px;
+}
